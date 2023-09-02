@@ -3,14 +3,21 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // 2) Get a reference to the div with ID root on public > index.html
-const el = document.getElementById('root');
+const el = document.getElementById("root");
 
 // 3) Tell React to take control of that element
 const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
-function App(){
-    return <h1>{new Date().toLocaleTimeString()}</h1>;
+function App() {
+  const name = "Samantha";
+  const age = 23;
+
+  return (
+    <h1>
+      Hi! My name is {name} and my age is {age}
+    </h1>
+  );
 }
 
 // 5) Show the content on the screen
