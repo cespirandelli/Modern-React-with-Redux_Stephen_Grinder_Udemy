@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
-  return <textarea autoFocus={true} />;
+  return <input spellCheck={false} />;
 }
 
 // 5) Show the content on the screen
