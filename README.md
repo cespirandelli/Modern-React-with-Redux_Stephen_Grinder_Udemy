@@ -1,2 +1,2 @@
-# Modern React with Redux _Stephen_Grinder_Udemy
+# Modern React with Redux Stephen Grinder Udemy
  React with Redux Course
