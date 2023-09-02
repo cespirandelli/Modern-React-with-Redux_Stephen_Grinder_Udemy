@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
-  return <div style={{ textDecoration: "none", padding: "5px" }} />;
+  return <input style={{ border: "0.5px solid blue" }} />;
 }
 
 // 5) Show the content on the screen
