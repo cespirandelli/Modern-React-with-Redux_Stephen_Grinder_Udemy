@@ -1,10 +1,6 @@
-function ProfileCard(props) {
-  //   const title = props.title;
-  //   const handle = props.handle;
-
-  // The line below, does the same as both commented above. This is a JS destructuring feature
-  const { title, handle } = props;
-  // You create two variables that receives props.{object_value}
+function ProfileCard({ title, handle }) {
+  //   const { title, handle } = props;
+  // You can shorten the attribution of properties even more using the arguments of the component function.
 
   return (
     <div>
