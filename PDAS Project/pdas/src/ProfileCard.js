@@ -1,7 +1,5 @@
 function ProfileCard({ title, handle }) {
-  //   const { title, handle } = props;
-  // You can shorten the attribution of properties even more using the arguments of the component function.
-
+  console.log(title, handle);
   return (
     <div>
       <div>Title is {title} </div>
