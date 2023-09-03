@@ -9,7 +9,5 @@ const el = document.getElementById("root");
 // 3) Tell React to take control of that element
 const root = ReactDOM.createRoot(el);
 
-// 4) Create a component
-
-// 5) Show the content on the screen
+// 4) Show the content on the screen
 root.render(<App />);
