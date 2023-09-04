@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      <button> Add animal!</button>
+      <button onClick={handleClick}> Add animal!</button>
     </div>
   );
 }
