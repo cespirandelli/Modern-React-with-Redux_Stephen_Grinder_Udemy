@@ -6,15 +6,12 @@ function getRandomAnimal() {
   return animals[Math.floor(Math.random() * animals.length)];
 }
 
-console.log(getRandomAnimal());
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Add animal!</button>
-      <div> Number of animals: {count}</div>
+      <button onClick={() => }>Add animal!</button>
     </div>
   );
 }
