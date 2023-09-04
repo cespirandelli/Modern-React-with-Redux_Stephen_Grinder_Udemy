@@ -13,7 +13,6 @@ function ProfileCard({ title, handle, image, description }) {
           <p className="subtitle is-6">{handle}</p>
         </div>
       </div>
-
       <div className="content">{description}</div>
     </div>
   );
