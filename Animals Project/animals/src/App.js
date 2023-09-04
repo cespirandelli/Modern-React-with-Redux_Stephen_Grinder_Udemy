@@ -1,9 +1,12 @@
+import { useState } from "react";
+
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
     <div>
-      <button onClick={() => console.log("Button was clicked!")}>
-        Add animal!
-      </button>
+      <button onClick={() => setCount(count + 1)}>Add animal!</button>
+      <div> Number of animals: {count}</div>
     </div>
   );
 }
