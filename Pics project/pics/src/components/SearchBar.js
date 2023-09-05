@@ -1,5 +1,5 @@
 function SearchBar() {
-  return <div>SearchBar</div>;
+  return <input type="form">SearchBar</input>;
 }
 
 export default SearchBar;
