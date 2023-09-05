@@ -3,7 +3,7 @@ import AnimalShow from "./AnimalShow";
 
 function getRandomAnimal() {
   const animals = ["bird", "cat", "dog", "gator", "cow", "horse"];
-  // If we don't add the Math.floor, this will generate a decimal number.
+
   return animals[Math.floor(Math.random() * animals.length)];
 }
 
