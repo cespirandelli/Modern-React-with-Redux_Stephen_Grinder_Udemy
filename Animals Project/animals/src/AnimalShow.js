@@ -17,7 +17,11 @@ const svgMap = {
 };
 
 function AnimalShow({ type }) {
-  // type ='cat', 'cow'...
+  const [clicks, setClicks] = useState(0);
+
+  const handleClick = () => {
+    setClicks(clicks + 1);
+  };
 
   return (
     <div onClick={handleClick}>
