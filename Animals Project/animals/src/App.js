@@ -9,7 +9,12 @@ function getRandomAnimal() {
 function App() {
   const [animals, setAnimals] = useState([]);
 
-  const handleClick = () => {};
+  const handleClick = () => {
+    // The code below will get the array with all the
+    // existing elements of animals array nad put them into a new one
+    // Then we'll gona put a random animal at the end as well.
+    setAnimals([...animals, getRandomAnimal()]);
+  };
 
   return (
     <div>
