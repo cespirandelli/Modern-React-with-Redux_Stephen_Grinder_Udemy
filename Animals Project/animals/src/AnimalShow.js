@@ -7,12 +7,12 @@ import gator from "./svg/gator.svg";
 import horse from "./svg/horse.svg";
 
 const svgMap = {
-  bird: bird,
-  cat: cat,
-  cow: cow,
-  dog: dog,
-  gator: gator,
-  horse: horse,
+  bird,
+  cat,
+  cow,
+  dog,
+  gator,
+  horse,
 };
 
 function AnimalShow({ type }) {
