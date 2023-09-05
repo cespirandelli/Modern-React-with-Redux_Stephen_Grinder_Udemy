@@ -6,6 +6,7 @@ function getRandomAnimal() {
   const animals = ["bird", "cat", "dog", "gator", "cow", "horse"];
 
   return animals[Math.floor(Math.random() * animals.length)];
+
 }
 
 function App() {
