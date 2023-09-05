@@ -1,8 +1,25 @@
-/* We created the "className='app' in the.js file so we could access it
-through this SELECTOR (".app") and give styling configs for everything inside its tag */
 .app { 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center ;
 
+}
+/* When we don't use "className"(no dot '.')
+we're trying to select all buttons elements inside our App */
+button {
+    background-color: lightgreen;
+    border: 1px solid green;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+}
+
+/* This is the element that is going to wrap all 
+of the different animals */
+.animal-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
