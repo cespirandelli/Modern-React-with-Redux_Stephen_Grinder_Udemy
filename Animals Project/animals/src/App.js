@@ -6,12 +6,14 @@ function getRandomAnimal() {
   return animals[Math.floor(Math.random() * animals.length)];
 }
 
-
 function App() {
+  const [animals, setAnimals] = useState([]);
+
+  const handleClick = () => {};
 
   return (
     <div>
-      <button onClick={() => }>Add animal!</button>
+      <button onClick={handleClick}>Add animal!</button>
     </div>
   );
 }
