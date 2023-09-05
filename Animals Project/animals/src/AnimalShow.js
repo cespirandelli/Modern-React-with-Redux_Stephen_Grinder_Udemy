@@ -5,6 +5,7 @@ import cow from "./svg/cow.svg";
 import dog from "./svg/dog.svg";
 import gator from "./svg/gator.svg";
 import horse from "./svg/horse.svg";
+import heart from "./svg/heart.svg";
 
 const svgMap = {
   bird,
@@ -16,7 +17,14 @@ const svgMap = {
 };
 
 function AnimalShow({ type }) {
-  return <div>{type}</div>;
+  // type ='cat', 'cow'...
+
+  return (
+    <div onClick={handleClick}>
+      <img alt="animal" src={svgMap[type]} />
+      <img alt="heart" src={heart} />
+    </div>
+  );
 }
 
 export default AnimalShow;
