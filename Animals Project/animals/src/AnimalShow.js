@@ -1,5 +1,5 @@
-function AnimalShow() {
-  <div>I'll be an animal</div>;
+function AnimalShow({ type }) {
+  <div>{type}</div>;
 }
 
 export default AnimalShow;
