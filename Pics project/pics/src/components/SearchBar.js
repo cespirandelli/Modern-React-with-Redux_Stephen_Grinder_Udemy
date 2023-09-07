@@ -1,5 +1,11 @@
-function SearchBar() {
-  return <input type="form">SearchBar</input>;
+function SearchBar(onSubmit) {
+  const handleClick = () => {};
+  return (
+    <div>
+      <input />
+      <button onClick={handleClick}>Click me!</button>
+    </div>
+  );
 }
 
 export default SearchBar;
