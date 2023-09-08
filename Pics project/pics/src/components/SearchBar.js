@@ -5,20 +5,17 @@ function SearchBar({ onSubmit }) {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    onSubmit("asdf");
+    onSubmit(term);
   };
 
   const handleChange = (event) => {
-    setTerm(event.target.value.replace(/[a-z]/, ""));
-    // the code above, determines that the input cannot be lowercase letter.
+    setTerm(event.target.value);
   };
 
   return (
     <div>
       <form onSubmit={handleFormSubmit}>
-        Confirm the search: {term}
         <input value={term} onChange={handleChange} name="search bar" />
-        {term.length < 3 && " Term must be longer then 3!"}
       </form>
     </div>
   );
