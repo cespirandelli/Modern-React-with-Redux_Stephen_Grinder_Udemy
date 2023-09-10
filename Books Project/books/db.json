@@ -1,16 +1,12 @@
 {
   "books": [
     {
-      "title": "reyser",
+      "title": "Harry Potter",
       "id": 1
     },
     {
-      "title": "asd",
+      "title": "Dark Tower",
       "id": 2
-    },
-    {
-      "title": "sda",
-      "id": 3
     }
   ]
 }
