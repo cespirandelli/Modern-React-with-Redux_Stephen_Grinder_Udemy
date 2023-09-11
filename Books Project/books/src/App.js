@@ -20,7 +20,6 @@ function App() {
     const response = await axios.put(`http://localhost:3001/books/${id}`, {
       title: newTitle,
     });
-
     setBooks(response.data);
 
     const updatedBooks = books.map((book) => {
@@ -32,7 +31,9 @@ function App() {
     setBooks(updatedBooks);
   };
 
-  const deleteBookById = (id) => {
+  const deleteBookById = async (id) => {
+    await axios.delete(`http://localhost:3001/books/${id}`);
+
     const updatedBooks = books.filter((book) => {
       return book.id !== id;
     });
