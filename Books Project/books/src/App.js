@@ -60,3 +60,5 @@ function App() {
 }
 
 export default App;
+
+// Last version before refactoring a final time.
