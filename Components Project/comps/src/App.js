@@ -8,10 +8,14 @@ import {
 import Button from "./Button";
 
 function App() {
+  const handleClick = () => {
+    console.log("clicked");
+  };
+
   return (
     <div>
       <div>
-        <Button secondary outline rounded>
+        <Button secondary outline rounded onClick={handleClick}>
           <GoBell />
           Click me!!
         </Button>
