@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* "Whenever you find a button with an svg, do the following" */
+button > svg {
+    margin-right: 5px;
+}
