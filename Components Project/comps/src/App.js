@@ -15,7 +15,13 @@ function App() {
   return (
     <div>
       <div>
-        <Button secondary outline rounded onClick={handleClick}>
+        <Button
+          secondary
+          outline
+          rounded
+          onClick={handleClick}
+          className="mb-5"
+        >
           <GoBell />
           Click me!!
         </Button>
