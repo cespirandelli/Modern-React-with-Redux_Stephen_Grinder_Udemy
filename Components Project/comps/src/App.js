@@ -1,61 +1,27 @@
-import {
-  GoBell,
-  GoCopilot,
-  GoCreditCard,
-  GoDatabase,
-  GoEye,
-} from "react-icons/go";
-import Button from "./components/Button";
+import Accordion from "./components/Accordion";
 
 function App() {
-  const handleClick = () => {
-    console.log("clicked");
-  };
-
-  return (
-    <div>
-      <div>
-        <Button
-          secondary
-          outline
-          rounded
-          onClick={handleClick}
-          className="mb-5"
-        >
-          <GoBell />
-          Click me!!
-        </Button>
-      </div>
-
-      <div>
-        <Button danger outline>
-          <GoCopilot />
-          Buy now
-        </Button>
-      </div>
-
-      <div>
-        <Button warning>
-          <GoCreditCard />
-          See deal
-        </Button>
-      </div>
-
-      <div>
-        <Button secondary outline>
-          <GoDatabase />
-          Hide Ads
-        </Button>
-      </div>
-
-      <div>
-        <Button primary rounded>
-          <GoEye />
-          Something
-        </Button>
-      </div>
-    </div>
-  );
+  const items = [
+    {
+      id: "12unjd08",
+      label: "Can I use React on a project?",
+      content:
+        "You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.",
+    },
+    {
+      id: "ql99jf3",
+      label: "Can I use JS on a project?",
+      content:
+        "You can use JS on any project you want.You can use JS on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.",
+    },
+    {
+      id: "1kimi9d3",
+      label: "Can I use CSS on a project?",
+      content:
+        "You can use CSS on any project you want.You can use CSS on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.",
+    },
+  ];
+  return <Accordion items={items} />;
 }
 
 export default App;
