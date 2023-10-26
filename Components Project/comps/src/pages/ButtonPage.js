@@ -5,9 +5,9 @@ import {
   GoDatabase,
   GoEye,
 } from "react-icons/go";
-import Button from "./components/Button";
+import Button from "../components/Button";
 
-function App() {
+function ButtonPage() {
   const handleClick = () => {
     console.log("clicked");
   };
@@ -58,4 +58,4 @@ function App() {
   );
 }
 
-export default App;
+export default ButtonPage;
