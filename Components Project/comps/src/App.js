@@ -6,19 +6,19 @@ function App() {
       id: "12unjd08",
       label: "Can I use React on a project?",
       content:
-        "You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.",
+        "Content from section 1; Content from section 1; Content from section 1",
     },
     {
       id: "ql99jf3",
       label: "Can I use JS on a project?",
       content:
-        "You can use JS on any project you want.You can use JS on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.",
+        "Content from section 2; Content from section 2; Content from section 2",
     },
     {
       id: "1kimi9d3",
       label: "Can I use CSS on a project?",
       content:
-        "You can use CSS on any project you want.You can use CSS on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.You can use React on any project you want.",
+        "Content from section 3; Content from section 3; Content from section 3",
     },
   ];
   return <Accordion items={items} />;
